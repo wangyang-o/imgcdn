@@ -1,0 +1,3 @@
+console["log"]('%c \u4e00\u652f\u7a7f\u4e91\u7bad\uff0c\u5343\u519b\u4e07\u9a6c\u6765\u76f8\u89c1\uff01 %c \u6613\u4e0e\u5929\u884c https://www.ojbk666.top', 'color: #fadfa3; background: #030307; padding:5px', 'background: #fadfa3; padding:5px');
+console.log("%c\n        ", "font-size:250px;background:url('https://cdn.jsdelivr.net/gh/wangyang-o/imgcdn/img/timg.gif') no-repeat 0px -30px");
+console.log("%c%c滑稽警告%c再来偷源码&文章，劳资打死你!", "line-height:28px;", "line-height:28px;padding:4px;background:#222;color:#fff;font-size:16px;margin-right:15px", "color:#f00;font-weight:bold;line-height:28px;font-size:16px;")
