@@ -12,6 +12,12 @@ function show_runtime() {
         c = (b - B) * 60;
         C = Math.floor((b - B) * 60);
         D = Math.floor((c - C) * 60);
-	document.getElementById("runtime_span").innerHTML = "小破站已运行了: " + A + "天" + B + "小时" + C + "分" + D + "秒了"
-	}
-    show_runtime();
+        var str1 = "#";
+        for (var i = 0; i < 6; i++) {
+                str1 += Math.floor(Math.random() * 9);
+        }
+        document.getElementById("runtime_span").innerHTML = "小破站已运行了: " + A + "天" + B + "小时" + C + "分" + D + "秒了"
+        document.getElementById("runtime_span").style.color = str1;
+}
+
+show_runtime();
